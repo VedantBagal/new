@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REVFLASH - Dashboard</title>
+    <link rel="stylesheet" href="style.css"> <!-- Shared CSS -->
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="dashboard.html">Dashboard</a></li>
+                <li><a href="profile.html">Profile</a></li>   <!-- Conceptual -->
+                <li><a href="leaderboard.html">Leaderboard</a></li> <!-- Conceptual -->
+                <li><button id="logout-button">Logout</button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <h1>Your Dashboard</h1>
+        
+        <section id="user-info">
+            <h2>User Information</h2>
+            <p>Welcome, <span id="username-display">loading...</span>!</p>
+            <p>Your current points: <span id="points-display">loading...</span></p>
+        </section>
+
+        <section id="quick-actions">
+            <h2>Quick Actions</h2>
+            <p><em>(Placeholder for future content like "Recent Activity" or "Quick Start new revision")</em></p>
+        </section>
+    </main>
+
+    <script src="js/dashboard.js"></script>
+</body>
+</html>
